@@ -13,22 +13,7 @@ Python 3.x and necessary libraries
 C++ for OMNeT++ simulation scripts
 
 
-Project Structure
-/project_directory
-│
-├── /sumo_simulation/
-│   ├── sumo_config_file.sumocfg  # SUMO configuration file
-│   └── sumo_network_file.net.xml  # SUMO network file
-│
-├── /omnet_simulation/
-│   ├── omnet_cplusplus_script.cc  # C++ code for OMNeT++ simulation
-│   └── omnet_config_file.ini     # OMNeT++ configuration file
-│
-├── /python_analysis/
-│   ├── reputation_distribution.py  # Python code to distribute reputation
-│   └── final_analysis.py           # Python code to analyze final simulation output
-│
-└── README.md
+
 
 
 A-Setup Instructions
