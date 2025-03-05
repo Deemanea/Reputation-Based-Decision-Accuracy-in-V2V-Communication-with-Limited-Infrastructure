@@ -63,17 +63,3 @@ This will simulate the network environment and process the reputation and certif
 E. Analyze Final Results with Python
 Finally, after running the OMNeT++ simulation, use a Python script to analyze the results.
 This step will process the output data from the OMNeT++ simulation and generate the final results, such as reputation distribution across the network and certificate statuses.
-
-Detailed Steps
-Step 1: SUMO Simulation
-SUMO simulates the movement of vehicles on a given network.
-Outputs can include vehicle position, speed, and other traffic-related data, which are captured and processed by TRACI.
-Step 2: Reputation Distribution
-Reputation values are assigned to vehicles based on certain criteria (e.g., trustworthiness, reliability, behavior).
-These values are distributed using a tringle distribuation approach.
-Step 3: OMNeT++ Simulation
-OMNeT++ simulates the network protocols, including how vehicles communicate with each other.
-Each vehicle's reputation and certificates are processed, influencing the vehicle's actions in the network.
-Step 4: Python Final Analysis
-After all simulations are complete, Python scripts are used to analyze and visualize the final results.
-
