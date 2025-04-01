@@ -56,10 +56,6 @@ Ensure that the TRACI package is integrated with your SUMO simulation to interac
 
 Next, use the tringle reputation distribution model to allocate reputation values to vehicles based on the simulation data.
 
-Run the Python script:
-
-python /path/to/python_analysis/Generate RepValues triangleDistrub.py
-This script will distribute reputation values among vehicles resulted from SUMO simulation.
 
 ****D. Run OMNeT++ Simulation****
 
